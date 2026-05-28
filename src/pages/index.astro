@@ -1,5 +1,5 @@
 ---
-
+import { Image } from 'astro:assets';
 ---
 
 <html lang="en">
@@ -9,16 +9,16 @@
 		<link rel="icon" href="/favicon.ico" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>K-ON!</title>
 	</head>
 	<body>
-		<h1 style="text-align:center;">K-ON!</h1>
-		<img 
+		<h1 style="text-align:center;">輕音永不畢業</h1>
+		<Image 
 		  src="/images/KON.jpg" 
 		  alt="KON!" 
-		  width="500" 
-		  height="" 
-		  style="display: block; margin: 0 auto;"
+		  width="800"
+		  height="507"
+		  style="display: block; margin: 0 auto"
 		/>
 	</body>
 </html>
