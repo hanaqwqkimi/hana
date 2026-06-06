@@ -11,10 +11,17 @@ import { Image } from 'astro:assets';
 		<meta name="generator" content={Astro.generator} />
 		<title>K-ON!</title>
 	</head>
+	
+	<style>
+	.center{
+		text-align: center;
+	}
+	</style>
+	
 	<body>
-		<h1 style="text-align:center;">輕音永不畢業</h1>
+		<h1 class="center">輕音永不畢業</h1>
 		<Image 
-		  src="/images/1/KON.jpg" 
+		  src="/images/KON.jpg" 
 		  alt="KON!" 
 		  width="1500"
 		  height="951"
